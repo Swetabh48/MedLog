@@ -1,0 +1,22 @@
+# IDE
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+
+# Build
+**/target/
+**/out/
+**/build/
+*.class
+*.jar
+*.war
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env / secrets
+.env
+*.log
