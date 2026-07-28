@@ -29,3 +29,10 @@ services:
     depends_on:
       patient-service-db:
         condition: service_healthy
+
+  billing-service:
+    build: ./billing-service
+    container_name: billing-service
+    ports:
+      - "4001:4001"
+      - "9001:9001"
